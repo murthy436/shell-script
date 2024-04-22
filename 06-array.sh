@@ -14,5 +14,9 @@ echo "Selected Index element at index: $selected_index:"
 echo "${Names[$selected_index]}"
 
 #To print elements from particular index
-echo "Elements from Particular index:"
+echo "Elements from Particular index 2:"
 echo "${Names[@]:2}"
+
+#To check how many names in above list
+echo "Number of names in Names variable:"
+echo ${Names=@}
