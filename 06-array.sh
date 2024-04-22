@@ -15,3 +15,4 @@ echo "${Names[$selected_index]}"
 
 #To print elements from particular index
 echo "Elements from Particular index:"
+echo "${Names[@]:2}"
