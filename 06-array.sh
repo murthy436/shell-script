@@ -32,3 +32,5 @@ Names[0]=${temp}
 Names[1]=${temp1}
 echo "After swapping the names this is order:"
 echo "${Names[@]}"
+
+echo "First name in the list: ${Names[0]}"
