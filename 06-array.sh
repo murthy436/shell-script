@@ -20,4 +20,4 @@ echo "${Names[@]:2}"
 #To check how many names in above list
 echo "Number of names in Names variable:"
 echo ${#Names[@]}
-echo $#{Names[@]}
+echo $#
