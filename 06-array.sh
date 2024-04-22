@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Names=("Swathi" "Yuvan" "Sushanth")
+Names=("Swathi" "Yuvan" "Sushanth" "Naga rathna")
 
 
 echo "First name: ${Names[0]}"
