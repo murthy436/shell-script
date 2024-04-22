@@ -24,8 +24,10 @@ echo ${#Names[@]}
 # To swap the names in list
 echo "Before swapping the names this is orignal order:"
 echo ${Names[@]}
-temp=${Names[4]}
-Names[4]=${Names[0]}
+temp=${Names[3]}
+temp1=${Names[2]}
+Names[3]=${Names[0]}
 Names[0]=${temp}
+Names[1]=${temp1}
 echo "After swapping the names this is order:"
 echo "${Names[@]}"
