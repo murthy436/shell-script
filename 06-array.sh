@@ -20,4 +20,12 @@ echo "${Names[@]:2}"
 #To check how many names in above list
 echo "Number of names in Names variable:"
 echo ${#Names[@]}
-echo $#
+
+# To swap the names in list
+echo "Before swapping the names this is orignal order:"
+echo ${Names[@]}
+temp=${Names[4]}
+Names[4]=${Names[0]}
+Names[0]=${temp}
+echo "After swapping the names this is order:"
+echo "${Names[@]}"
