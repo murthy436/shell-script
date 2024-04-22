@@ -27,6 +27,7 @@ echo ${Names[@]}
 temp=${Names[3]}
 temp1=${Names[2]}
 Names[3]=${Names[0]}
+Names[2]=${Names[1]}
 Names[0]=${temp}
 Names[1]=${temp1}
 echo "After swapping the names this is order:"
