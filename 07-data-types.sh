@@ -5,10 +5,10 @@
 #SUM=$(($NO1+$NO2))
 
 #echo "Total of $NO1 and $NO2 is: " $SUM
-Num1=$1
-Num2=$2
-Num3=$3
-Num4=$4
+Num1=10
+Num2=20
+Num3=40
+Num4=30
 
 Sum=$(($Num1+$Num2))
 Sub=$(($Num3-$Num4))
