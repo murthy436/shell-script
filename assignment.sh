@@ -21,7 +21,7 @@ while read line; do
 
   # Add each word to the dictionary
   for word in "${words[@]}"; do
-    if [ -z "${word_counts[$word]}" ]; then
+    if [ -z "${word_counts[$word]}" -ne 0]; then
       word_counts[$word]=1
     else
       word_counts[$word]=$((word_counts[$word] + 1))
