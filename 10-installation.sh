@@ -3,10 +3,10 @@
 USERID=$(id -u)
 
 if[ $USERID -ne 0 ]
-    then
+then
         echo "Run this code with superuser"
         exit 1
-    else
+else
         echo "You are super user"
 fi
 
