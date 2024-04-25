@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if($USERID -ne 0)
+if( $USERID -ne 0 )
     then
         echo "Run this code with superuser"
         exit 1
@@ -13,7 +13,7 @@ fi
 #Install mysql server
 dnf install mysql -y
 
-if($? -ne 0)
+if( $? -ne 0 )
     then
         echo "Installing mysql server is failure"
         exit 1
@@ -23,7 +23,7 @@ fi
 
 dnf install git -y
 
-if($? -ne 0)
+if( $? -ne 0 )
     then
         echo "Installaton of git is failure"
         exit 2
