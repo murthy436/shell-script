@@ -24,11 +24,11 @@ VALIDATE()
 
 
 if [ $USERID -ne 0 ]
-    then 
-        echo "Please rund the code with supre user"
-        exit 1
-    else
-        echo "You are a supre user"
+then 
+    echo "Please rund the code with supre user"
+    exit 1
+else
+    echo "You are a supre user"
 fi
 
 #Writing for loop to installations of packages
