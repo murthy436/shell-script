@@ -37,3 +37,6 @@ VALIDATE $? "Installing docer file"
 
 dnf install gcc -y &>>$LOGFILE
 VALIDATE $? "Installing gcc file"
+
+dnf install mysqla -y
+VALIDATE $? "Installing mysqla file"
