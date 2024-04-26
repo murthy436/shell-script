@@ -7,15 +7,14 @@ LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
 VALIDATE()
 {
-    if [ $1 -ne 0 ]
-        then 
-            echo "$2 .....FAILURE"
-            exit1
-        else
-            echo "$2......SUCESS"
+if [ $1 -ne 0 ]
+then 
+    echo "$2 .....FAILURE"
+    exit1
+else
+    echo "$2......SUCESS"
 
-    fi
-
+fi
 }
 
 if [ $USERID -ne 0 ]
